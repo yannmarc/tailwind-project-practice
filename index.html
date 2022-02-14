@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./public/css/main.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-gray-50 font-secondary ">
+
+  <!-- Navigation starts here -->
+  <div class="container px-3 lg:max-w-7xl mx-auto">
+    <header class="py-8 font-primary">
+      <div class="wrapper flex items-center justify-between px-0 mx-auto">
+        <div><img src="./public/images/logo.svg" alt="Fylo Logo" class="f w-8/12"></div>
+        <div>
+          <ul class="list-none flex flex-wrap items-center justify-start w-full space-x-3 lg:space-x-8 lg:font-semibold">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#" class="">Sign In</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- The Hero section starts here -->
+    <div class="space-y-10 mb-52 flex flex-col lg:flex-row mt-40">
+      <div class="w-full flex justify-center items-center my-24 lg:order-2 lg:my-0">
+        <img src="./public/images/illustration-1.svg" alt="" class="max-w-full h-auto">
+      </div>
+     <div class="lg:mr-12 ">
+      <div class="text-center lg:text-left lg:mt-8">
+        <h1 class="font-bold mb-8 text-2xl text-d-blue leading-relaxed lg:font-extrabold lg:text-4xl lg:leading-10"> All your files in one secure <br> location, accessible anywhere.</h1>
+        <p class="text-de-blue mb-8">Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.</p>
+      </div>
+      <div class="flex justify-center items-center lg:block">
+        <form action="" class="flex flex-col space-y-4 w-full lg:flex lg:flex-row lg:w-full lg:h-full lg:space-y-0">
+          <input type="email" name="email" id="" class="f border-2 border-d-blue placeholder:text-de-blue placeholder:opacity-75 px-4 inline-block  w-12/12 py-4 rounded-md lg:px-2 lg:w-8/12 lg:py-0" placeholder="Enter your email">
+          <input type="submit" value="Get Started" class="font-bold text-white bg-br-blue px-4 inline-block  w-12/12 py-4 rounded-md lg:h-full lg:ml-2 lg:my-0 lg:w-4/12">
+        </form>
+      </div>
+     </div>
+    </div>
+
+    <!-- Feature section overhere -->
+    <div class="section-bg-img py-8">
+      <div class="wrapper lg:max-w-6xl mx-auto lg:flex lg:gap-10">
+        <div class="lg:w-12/12 h-auto lg:order-2 lg:items-center lg:flex">
+          <img src="./public/images/illustration-2.svg" alt="The second illustraion" class="w-full">
+        </div>
+        <div class="text-left lg:text-left">
+          <h1 class="font-bold text-xl text-d-blue text-center my-12 lg:text-left lg:text-3xl lg:mb-8">Stay productive, wherever you are</h1>
+          <p class="text-de-blue mb-4">Never let location be an issue when accessing your files. Fylo has you 
+            covered for all of your file storage needs.</p>
+          <p class="text-de-blue mb-4">Securely share files and folders with friends, family and colleagues for 
+            live collaboration. No email attachments required!</p>
+           <a href="#" class="flex justify-center md:flex md:justify-start items-center my-14 w-full text-mod-cyan pb-3 relative how-it-works">See how Fylo works <img src="./public/images/icon-arrow.svg " class="ml-2 w-1/12 h-auto" alt=""></a>
+
+
+           <div class="flex justify-center items-center w-full font-normal text-sm my-14">
+            <div class="p-7 bg-white shadow-md shadow-gray-200 rounded-md h-auto">
+              <img src="./public/images/icon-quotes.svg" alt="" class="mb-4 w-1/12">
+              <p class="f leading-relaxed">Fylo has improved our team productivity by an order of magnitude. Since 
+                making the switch our team has become a well-oiled collaboration machine.</p>
+                <div class="flex mt-4">
+                  <img src="./public/images/avatar-testimonial.jpg" alt="" class="f rounded-full w-2/12">
+                  <div class="flex flex-col space-y-2 ml-4">
+                    <h3>Kyle Burton</h3>
+                    <h5 class="t text-xs">Founder & CEO, Huddle</h5>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+    <!-- Get early access asection -->
+  </div>
+
+  <div class="section bg-de-blue px-3 py-8 lg:py-24">
+    <div class="lg:max-w-6xl mx-auto lg:flex lg:justify-between lg:w-12/12 lg:gap-24">
+      <div class="text-center lg:text-left lg:w-2/4">
+        <h1 class="font-bold mb-8 text-2xl text-white "> Get early access today <br> location, accessible anywhere.</h1>
+        <p class="text-white mb-4">It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <div class="flex justify-center items-center lg:items-start lg:w-6/12">
+        <form action="" class="flex flex-col space-y-4 w-full mt-4 lg:w-12/12">
+
+          <input type="email" name="email" id="" class="f border-2 placeholder:text-de-blue placeholder:opacity-75 px-4 inline-block  w-12/12 py-4" placeholder="Enter your email">
+
+          <input type="submit" value="Get Started" class="f font-bold text-white bg-br-blue  px-4 inline-block  w-12/12 py-4 lg:w-2/4">
+        </form>
+      </div>
+     </div>
+  </div>
+  
+  <!-- Features
+  Team
+  Sign In
+
+  All your files in one secure location, accessible anywhere.
+
+  Fylo stores your most important files in one secure location. 
+  Access them wherever you need, share and collaborate with friends, 
+  family, and co-workers.
+
+  Get Started
+
+  Stay productive, wherever you are
+
+  Never let location be an issue when accessing your files. Fylo has you 
+  covered for all of your file storage needs.
+
+  Securely share files and folders with friends, family and colleagues for 
+  live collaboration. No email attachments required!
+
+  See how Fylo works
+
+  Fylo has improved our team productivity by an order of magnitude. Since 
+  making the switch our team has become a well-oiled collaboration machine.
+
+  Kyle Burton
+  Founder & CEO, Huddle
+
+  Get early access today
+
+  It only takes a minute to sign up and our free starter tier is extremely generous. 
+  If you have any questions, our support team would be happy to help you.
+
+  Get Started For Free
+
+  Phone: +1-543-123-4567
+  example@fylo.com
+
+  About Us
+  Jobs
+  Press
+  Blog
+
+  Contact Us
+  Terms
+  Privacy -->
+
+  <footer class="bg-d-blue py-12">
+
+    <div class="flex flex-col space-y-8 text-white px-8 lg:max-w-6xl mx-auto lg:grid lg:grid-cols-4 lg:grid-rows-2 lg:content-start lg:w-full lg:justify-items-center ">
+        <!-- logo -->
+        
+          <div class="logo-footer md:col-span-4 lg:place-self-start lg:-mb-32">
+            <svg width="166" height="49" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M.014.03h93.96v48.29H.015z"/></defs><g fill="none" fill-rule="evenodd"><path d="M0 14.13v.123l27.95 13.13L56 14.209v-.033L27.95 1 0 14.13zm10.077.062L27.95 5.795l17.877 8.397-17.877 8.396-17.874-8.396zM27.95 32.483L0 19.55v4.784l27.95 12.964L56 24.289v-4.784L27.95 32.483zm0 9.703L0 29.25v4.783L27.95 47 56 33.99v-4.784l-28.05 12.98z" fill="#BDBAFA"/><g transform="translate(72)"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M87.56 24.152a8.1 8.1 0 0 0-2.161-5.573 7.259 7.259 0 0 0-2.34-1.673 6.864 6.864 0 0 0-2.85-.601c-1.01 0-1.961.2-2.852.601a7.257 7.257 0 0 0-2.34 1.673 8.102 8.102 0 0 0-2.16 5.574 8.102 8.102 0 0 0 2.16 5.573 7.257 7.257 0 0 0 2.34 1.672 6.864 6.864 0 0 0 2.851.602c1.01 0 1.96-.2 2.852-.602a7.259 7.259 0 0 0 2.339-1.672 8.1 8.1 0 0 0 2.16-5.574zm6.415 0c0 1.932-.357 3.723-1.07 5.373a13.098 13.098 0 0 1-2.94 4.28c-1.247 1.205-2.71 2.156-4.388 2.854-1.678.699-3.468 1.048-5.369 1.048-1.9 0-3.683-.349-5.346-1.048a13.863 13.863 0 0 1-4.366-2.876 13.351 13.351 0 0 1-2.94-4.302c-.713-1.65-1.07-3.426-1.07-5.329 0-1.873.364-3.634 1.092-5.284a13.92 13.92 0 0 1 2.962-4.325 13.671 13.671 0 0 1 4.367-2.898 13.552 13.552 0 0 1 5.301-1.048c1.901 0 3.69.35 5.369 1.048 1.678.698 3.14 1.65 4.388 2.854 1.248 1.204 2.228 2.638 2.94 4.302.713 1.665 1.07 3.449 1.07 5.351zM64.258 36.905a8.6 8.6 0 0 1-1.715.58c-.638.148-1.3.222-1.982.222a9.84 9.84 0 0 1-2.74-.379 6.003 6.003 0 0 1-2.295-1.226c-.653-.565-1.173-1.3-1.56-2.207-.385-.907-.578-2-.578-3.277V.029h6.549v29.474c0 1.07.215 1.806.646 2.207.43.401.943.602 1.537.602.742 0 1.455-.223 2.138-.669v5.262zM50.492 11.22L38.908 41.854c-.861 2.289-1.99 3.939-3.386 4.95-1.396 1.01-3.06 1.515-4.99 1.515-.297 0-.623-.022-.98-.066a7.352 7.352 0 0 1-1.025-.201l-2.138-5.975a8.486 8.486 0 0 0 1.56.557c.534.134 1.039.201 1.514.201 1.01 0 1.93-.23 2.762-.691.832-.46 1.47-1.315 1.916-2.564l.891-2.586-9.935-25.773h6.995l5.925 16.588 5.57-16.588h6.905zM23.538 7.342H6.786v8.294h16.529v5.618H6.785v15.784H.015V1.412h23.524v5.93z" fill="#fff" mask="url(#b)"/></g></g></svg>
+          </div>
+          <!-- contacts -->
+          <div class="contact md:flex md:flex-col md:gap-4">
+            <span class="flex items-center "><img src="./public/images/icon-phone.svg" alt=""><p class="ml-4">Phone: +1-543-123-4567</p></span>
+          <span class="flex items-center "><img src="./public/images/icon-email.svg" alt=""><p class="ml-4">example@fylo.com</p></span>
+          </div>
+        
+
+        <!-- sitemap -->
+        <ul class="mt-8 space-y-6 ">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#"></a>Jobs</li>
+          <li><a href="#"></a>Press</li>
+          <li><a href="#"></a>Blog</li>
+        </ul>
+
+        <ul class="mt-8 space-y-6">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#"></a>Terms</li>
+          <li><a href="#"></a>Privacy</li>
+        </ul>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
