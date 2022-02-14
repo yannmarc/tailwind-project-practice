@@ -751,12 +751,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
-.font-primary {
-  font-family: Raleway, sans-serif;
-}
-
 .font-secondary {
   font-family: Open Sans, sans-serif;
+}
+
+.font-primary {
+  font-family: Raleway, sans-serif;
 }
 
 .text-2xl {
@@ -965,12 +965,28 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 33.333333%;
   }
 
+  .lg\:w-96 {
+    width: 24rem;
+  }
+
+  .lg\:w-8 {
+    width: 2rem;
+  }
+
   .lg\:w-2\/4 {
     width: 50%;
   }
 
   .lg\:w-6\/12 {
     width: 50%;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
   }
 
   .lg\:max-w-7xl {
