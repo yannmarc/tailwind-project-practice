@@ -61,6 +61,15 @@
         @apply font-normal;
 
     }
+
+    .social-icon {
+        @apply ml-5 h-12 w-12 text-center;
+        
+        
+    }
+    .padd {
+        @apply p-2 rounded-full border-2 border-white;
+    }
 }
 
 

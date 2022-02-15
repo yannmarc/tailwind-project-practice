@@ -530,6 +530,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 400;
 }
 
+.social-icon {
+  margin-left: 1.25rem;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+}
+
+.padd {
+  border-radius: 9999px;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  padding: 0.5rem;
+}
+
 .relative {
   position: relative;
 }
@@ -975,10 +990,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:-mb-32 {
     margin-bottom: -8rem;
-  }
-
-  .lg\:-mt-80 {
-    margin-top: -20rem;
   }
 
   .lg\:block {
