@@ -10,7 +10,15 @@
 
 @media (min-width: 1024px) {
     .section-bg-img{
-        background-image: url('./public/images/bg-curve-desktop.svg');
+        width:100%;
+        height: 100%;
+    }
+
+    .section-bg-img:before {
+        content: '';
+        width: 100%;
+        height: 100vh;
+        background-color: burlywood;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -37,3 +45,26 @@
         transform: translate(0%, -50%);
     }
 }
+
+@layer components {
+    .btn-hover {
+        @apply transition ease-in-out duration-200;
+        @apply hover:cursor-pointer;
+        @apply hover:opacity-80;
+        
+    }
+
+    .foot-link {
+        @apply hover:text-de-blue;
+        @apply hover:cursor-pointer;
+        @apply transition ease-in-out duration-200;
+        @apply font-normal;
+
+    }
+}
+
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: none;
+}
+
