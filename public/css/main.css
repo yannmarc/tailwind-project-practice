@@ -532,8 +532,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .social-icon {
   margin-left: 1.25rem;
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
   text-align: center;
 }
 
@@ -693,12 +693,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
-
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .rounded-md {
@@ -907,10 +901,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     left: 0;
     transform: translate(0%, -50%);
   }
-}
-
-.space-y-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: none;
 }
 
 .placeholder\:text-de-blue::-moz-placeholder {
@@ -1137,4 +1127,5 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2.5rem;
   }
 }
+
 
